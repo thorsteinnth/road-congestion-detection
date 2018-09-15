@@ -80,7 +80,7 @@ public final class Dengraph
                 .csv(edgesPath);
 
         // Set up streaming DAG
-        // Simulate streaming by reading csv files from file system
+        // Simulate stream source by reading csv files from file system
         String dataSourceFolder = "data/stream_input";
 
         StructType recordSchema = new StructType()
